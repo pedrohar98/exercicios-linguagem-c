@@ -26,7 +26,7 @@ Organizar minha evolução nos estudos de programação em C, registrando exerc�
 
 ## 📂 Conteúdo
 
-Este repositório contém **13 exercícios práticos**, abordando temas como:
+Este repositório contém **exercícios práticos**, abordando temas como:
 
 - Entrada e saída de dados
 - Variáveis e operadores

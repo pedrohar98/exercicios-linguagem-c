@@ -1,6 +1,16 @@
-    #include <stdio.h>
-    #include <stdlib.h>
-    #include <string.h>
+/*strcpy: Substitui o texto (apaga o que lá estava e coloca o novo).
+
+strcat: Junta o texto (acrescenta ao final do que já lá existe).
+
+strlen: Conta o tamanho (diz quantos caracteres tem a frase).
+
+strcmp: Compara textos (devolve 0 se forem iguais).
+
+gets / fgets: Lê o que o utilizador escreve no teclado.*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
     int main(){
 
@@ -30,7 +40,8 @@
 
                     printf("\nDigite o Valor: RS: ");
                     gets(value);
-                    
+
+                    strcpy(line, code);
                     strcat(line, "");
                     strcat(line, code);
                     strcat(line, " - ");

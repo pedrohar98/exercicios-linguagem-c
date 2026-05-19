@@ -20,7 +20,7 @@ int main(){
     copia[i] = frase[i];
     
     printf("Frase: %s\n", frase);
-    printf("Copia: %s\n", copia);
+    printf("Copia: %s\n", copia);   
 
     return 0;
 }
